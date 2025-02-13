@@ -1,0 +1,60 @@
+{
+    "name": "leanzo/discussion-thumbnail",
+    "description": "Replace author avatars with the first image in a discussion's starting post",
+    "keywords": [
+        "flarum",
+        "friendsofflarum",
+        "leanzo"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.2.0"
+    },
+    "authors": [
+        {
+            "name": "David Sevilla Martin",
+            "email": "me+fof@datitisev.me",
+            "homepage": "https://datitisev.me",
+            "role": "Developer"
+        },
+        {
+            "name": "Lucas Lean",
+            "email": "lucasleannascimento@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "leanzo\\DiscussionThumbnail\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "FoF Discussion Thumbnail (LeanZo mod)",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-image",
+                "backgroundColor": "#e74c3c",
+                "color": "#fff"
+            }
+        },
+        "flagrow": {
+            "discuss": "https://discuss.flarum.org/d/22231"
+        },
+        "flarum-cli": {
+            "modules": {
+                "githubActions": true
+            }
+        }
+    },
+    "require-dev": {
+        "flarum/phpstan": "*"
+    },
+    "scripts": {
+        "analyse:phpstan": "phpstan analyse",
+        "clear-cache:phpstan": "phpstan clear-result-cache"
+    },
+    "scripts-descriptions": {
+        "analyse:phpstan": "Run static analysis"
+    }
+}
