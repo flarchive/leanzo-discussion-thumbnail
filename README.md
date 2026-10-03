@@ -2,13 +2,13 @@
 
 > **Read-only archive of released versions of leanzo/discussion-thumbnail.** Not for installation: use [Packagist](https://packagist.org/packages/leanzo/discussion-thumbnail) or the [upstream repository](https://github.com/LeanZo/discussion-thumbnail).
 
-**0** versions archived · Latest: [`v0.0.1`](https://github.com/flarchive/leanzo-discussion-thumbnail/tree/archive/v0.0.1) · License: `MIT` · Flarum: `^1.2.0`
+**1** versions archived · Latest: [`v0.0.1`](https://github.com/flarchive/leanzo-discussion-thumbnail/tree/archive/v0.0.1) · License: `MIT` · Flarum: `^1.2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v0.0.1` | 2025-02-13 | `^1.2.0` | [Browse](https://github.com/flarchive/leanzo-discussion-thumbnail/tree/archive/v0.0.1) |
 
 Catalog entry: [packages/leanzo-discussion-thumbnail.json](https://github.com/flarchive/archive-index/blob/main/packages/leanzo-discussion-thumbnail.json)
 
